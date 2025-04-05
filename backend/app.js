@@ -16,7 +16,7 @@ const app = express(); // Initialize app before using it
 
 // CORS configuration
 const corsOptions = {
-  origin: 'http://localhost:5173', // Replace with your frontend URL
+  origin: 'simple1-word1-processor1', // Replace with your frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
