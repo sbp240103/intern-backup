@@ -2,7 +2,7 @@ const express = require("express");
 const { google } = require("googleapis");
 const router = express.Router();
 const credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS); // Service account credentials
-hello
+
 // Authenticate using the service account
 const auth = new google.auth.GoogleAuth({
   credentials,
